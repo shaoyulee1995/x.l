@@ -1,0 +1,37 @@
+/* src/pages/css/LeetCodePage.css */
+.leetcode-page {
+  display: flex;
+  flex-direction: row;
+}
+
+.problem-list {
+  width: 30%; /* Adjust width as needed */
+  padding: 0; /* Remove padding to align to the left */
+  margin: 0; /* Remove margin to align to the left */
+  border-right: 1px solid #ccc; /* Optional border */
+}
+
+.problem-items {
+  display: flex;
+  flex-direction: column; /* Stack buttons vertically */
+}
+
+.problem-button {
+  padding: 5px 10px; /* Adjust padding for smaller buttons */
+  font-size: 14px; /* Smaller font size */
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: auto; /* Allow width to adjust based on content */
+  min-width: 120px; /* Set a minimum width for all buttons */
+  max-width: 100%; /* Prevent buttons from exceeding container width */
+  margin-bottom: 10px; /* Space between buttons */
+  text-align: center; /* Center text in the button */
+}
+
+.problem-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
